@@ -1,0 +1,169 @@
+header {
+  margin: 1.5em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .title {
+  font-weight: 500;
+  font-size: 2.5em;
+  color: #242323;
+}
+
+main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+main .pages {
+  width: 55%;
+}
+
+main .pages .cabecera_paginas {
+  border-bottom: 3px solid #b1b1b1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+main .pages .cabecera_paginas .btn-cabecera {
+  background: none;
+  border: none;
+  border-bottom: 3px solid #eeeeee;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+}
+
+main .pages .cabecera_paginas .btn-cabecera:hover, main .pages .cabecera_paginas .btn-cabecera:active, main .pages .cabecera_paginas .btn-cabecera:focus {
+  border: none;
+  border-bottom: 3px solid #7399d6;
+  cursor: pointer;
+}
+
+main .pages .inputs_todos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1em auto;
+  width: 100%;
+}
+
+main .pages .inputs_todos .caja {
+  background: none;
+  border: 1px solid #242323;
+  border-radius: 8px;
+  color: #242323;
+  font-size: 18px;
+  height: 2.5em;
+  padding: 0 1em;
+  width: 80%;
+}
+
+main .pages .inputs_todos .btn {
+  background: #648dd0;
+  border: none;
+  color: #eeeeee;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 18%;
+}
+
+.todos {
+  width: 50%;
+}
+
+.todos .lista_todos {
+  list-style: none;
+}
+
+.todos .lista_todos .todo_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2.5em;
+}
+
+.todos .lista_todos .todo_item .checkbox_todo {
+  width: 1.45em;
+  height: 1.45em;
+  margin-right: 1em;
+}
+
+.todos .lista_todos .todo_item .texto_todo {
+  font-size: 19px;
+}
+
+.todos .lista_todos .todo_item .completed {
+  text-decoration: line-through;
+  color: #8f8f8f;
+}
+
+.todos .lista_todos .todo_item .trash {
+  background: none;
+  border: none;
+  width: 2em;
+  height: 2em;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #dd2c0073;
+}
+
+.todos .lista_todos .todo_item .trash:hover {
+  color: #dd2c00;
+  cursor: pointer;
+}
+
+.todos .imagen {
+  width: 80%;
+}
+
+.todos .imagen img {
+  width: 90%;
+  opacity: 0.9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+* body {
+  width: 100%;
+  background: #eeeeee;
+}
+
+* body .content {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */

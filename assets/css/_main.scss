@@ -1,0 +1,61 @@
+$AzulPrimario: #648dd0;
+$BlancoPrimario: #eeeeee;
+$NegroPrimario: #242323;
+
+main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	.pages {
+		width: 55%;
+		.cabecera_paginas {
+			border-bottom: 3px solid #b1b1b1;
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			
+			.btn-cabecera {
+				background: none;
+				border: none;
+				border-bottom: 3px solid $BlancoPrimario;
+				font-size: 1.2em;
+				padding: 0.5em 1em;
+				
+				&:hover,
+				&:active,
+				&:focus {
+					border: none;
+					border-bottom: 3px solid #7399d6;
+					cursor: pointer;
+				}
+			}
+		}
+		.inputs_todos {
+			display: flex;
+			justify-content: space-between;
+			margin: 1em auto;
+			width: 100%;
+
+			.caja {
+				background: none;
+				border: 1px solid $NegroPrimario;
+				border-radius: 8px;
+				color: $NegroPrimario;
+				font-size: 18px;
+				height: 2.5em;
+				padding: 0 1em;
+				width: 80%;
+			}
+			.btn {
+				background: $AzulPrimario;
+				border: none;
+				color: $BlancoPrimario;
+				border-radius: 8px;
+				font-size: 20px;
+				width: 18%;
+			}
+		}
+	}
+}

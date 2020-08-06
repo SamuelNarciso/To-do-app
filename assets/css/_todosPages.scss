@@ -1,0 +1,46 @@
+.todos {
+	width: 50%;
+	.lista_todos {
+		list-style: none;
+		.todo_item {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 2.5em;
+			.checkbox_todo {
+				width: 1.45em;
+				height: 1.45em;
+				margin-right: 1em;
+			}
+			.texto_todo {
+				font-size: 19px;
+			}
+			.completed {
+				text-decoration: line-through;
+				color: #8f8f8f;
+			}
+
+			.trash {
+				background: none;
+				border: none;
+				width: 2em;
+				height: 2em;
+				font-size: 1.2em;
+				cursor: pointer;
+				color: #dd2c0073;
+				&:hover {
+					color: #dd2c00;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.imagen {
+		width: 80%;
+
+		img {
+			width: 90%;
+			opacity: 0.9;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+@import 'header';
+@import 'main';
+@import 'todosPages';
+$AzulPrimario: #648dd0;
+$BlancoPrimario: #eeeeee;
+$NegroPrimario: #242323;
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+	word-wrap: break-word;
+
+	body {
+        width: 100%;
+		background: $BlancoPrimario;
+		.content {
+			max-width: 1200px;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+}
