@@ -13,7 +13,7 @@ $NegroPrimario: #242323;
 	word-wrap: break-word;
 
 	body {
-        width: 100%;
+		width: 100%;
 		background: $BlancoPrimario;
 		.content {
 			max-width: 1200px;
@@ -21,4 +21,16 @@ $NegroPrimario: #242323;
 			margin: 0 auto;
 		}
 	}
+}
+
+@media only screen and (max-width: 750px) {
+	main {
+		.pages {
+			width: 90%;
+		}
+		.todos{
+			width: 85%;
+		}
+	}
+
 }

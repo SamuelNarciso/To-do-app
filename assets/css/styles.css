@@ -166,4 +166,13 @@ main .pages .inputs_todos .btn {
   width: 90%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 750px) {
+  main .pages {
+    width: 90%;
+  }
+  main .todos {
+    width: 85%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
